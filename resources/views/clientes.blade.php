@@ -1,5 +1,6 @@
 @extends('app')
 @section('content')
+<div id="page-wrapper">
 <h1>Clientes</h1>
 <table >	
 	<tr>
@@ -15,4 +16,5 @@
 	</tr>
 	@endforeach
 </table>
+</div>
 @endsection
