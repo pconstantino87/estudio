@@ -11,11 +11,11 @@ class ClientesController extends Controller
 	
 	public function index(){
 		//$clientes = Cliente::all();
-		return view('index',['clientes'=> Cliente::all()]);
+		return view('clientes',['clientes'=> Cliente::all()]);
 	}
 
 	public function create(){
-
+		return view('novo-cliente');
 	}
 }
 

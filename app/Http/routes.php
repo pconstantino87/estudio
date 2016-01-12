@@ -16,3 +16,5 @@
 });*/
 Route::get('/','ClientesController@index');
 Route::get('clientes','ClientesController@index');
+Route::get('cadastrar-cliente','ClientesController@create');
+Route::post('cadastrar-cliente','ClientesController@create');
