@@ -18,7 +18,7 @@
     <label for="exampleInputPassword1">Celular</label>
     <input type="text" class="form-control" id="celular" placeholder="Celular">
   </div>  
-  <button type="button" class="btn btn-default">Submit</button>
+  <button type="button" class="btn btn-default" id="enviar">Submit</button>
 </form>
 
 
